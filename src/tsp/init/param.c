@@ -5,7 +5,7 @@ tsp_init_param *
 tsp_create_init_param(void)
 {
     tsp_init_param *param = malloc(sizeof(tsp_init_param));
-    param->time_limit     = 5 * 60 * 60 * 1000;
+    param->time_limit = 5 * 60 * 60 * 1000;
     param->init           = TSP_INIT_RANDOM;
     return param;
 }

@@ -6,7 +6,7 @@ cp_exact_bac_param *
 cp_create_exact_bac_param(void)
 {
     cp_exact_bac_param *param   = malloc(sizeof(cp_exact_bac_param));
-    param->time_limit           = 5 * 60 * 60 * 1000;
+    param->time_limit = 5 * 60 * 60 * 1000;
     param->sep_logical          = 1;
     param->sep_sec_comps        = 1;
     param->sep_sec_exact        = CP_SEC_HONG_BOTH;
