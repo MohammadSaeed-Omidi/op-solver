@@ -5,7 +5,7 @@ cp_heur_ea_param *
 cp_create_heur_ea_param(void)
 {
     cp_heur_ea_param *param = malloc(sizeof(cp_heur_ea_param));
-    param->time_limit = 5 * 60 * 60 * 1000;
+    param->time_limit = 2 * 60 * 60 * 1000;
     param->it_lim           = INT_MAX;
     param->pop_size         = 100;
     param->pop_stop         = 25;

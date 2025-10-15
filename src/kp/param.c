@@ -5,7 +5,7 @@ kp_param *
 kp_create_param(void)
 {
     kp_param *param      = malloc(sizeof(kp_param));
-    param->time_limit = 5 * 60 * 60 * 1000;
+    param->time_limit = 2 * 60 * 60 * 1000;
     param->exact_tech    = KP_EXACT_BAB;
     param->check_input   = 1;
     param->reorder_items = 0;

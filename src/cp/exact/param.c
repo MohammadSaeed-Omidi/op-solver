@@ -5,7 +5,7 @@ cp_exact_param *
 cp_create_exact_param(void)
 {
     cp_exact_param *param = malloc(sizeof(cp_exact_param));
-    param->time_limit = 5 * 60 * 60 * 1000;
+    param->time_limit = 2 * 60 * 60 * 1000;
     param->appr           = SOLVER_CP_APPR_EXACT_BAC;
     return param;
 }
